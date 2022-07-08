@@ -10,5 +10,5 @@ export function middleware(request: NextRequest) {
 
 // See "Matching Paths" below to learn more
 export const config = {
-  matcher: '/(.*)', // we also tried some other matcher patterns, none of which worked
+  matcher: '/(.+)',
 };
